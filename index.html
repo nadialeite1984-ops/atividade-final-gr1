@@ -1,4 +1,35 @@
-AQUI PÁGINA PRINCIPAL DAS TAREFAS:
+!DOCTYPE html>
+<html lang="en">
+<HEAD>
+    <meta charset="UTF-8">
+    <title>Deshboard - Tarefas</title>
+    <link rel="stylesheet"href="CSS/style.css">
+</HEAD>
+<body>
+<header>
+    <h1>gestor de tarefas </h1>
+</header>
+<main class="container">
+    <section class="panel panel-form">
+<h2>Adicionar Tarefa</h2>
+<form id="form-tarefa" class="tash-form">
+    <input type=" text"id="titulo -tarefa" placeholder="titulo da tarefa"required>
+    <buttontype="submit">Adicionar</button>
+</form>
+<div id="api_output"class="api-output">
+    </div>
+    </section>
+    <!--paineldireito:lista-->
+    <section class="panel-list">
+    <h2>Lista de tarefas</h2>
+    <ul id="task-list"class="task-list"></ul>
+    </section>
+    <div id="export-section">
+    <button id="btn-exportar">Exportar tarefas(txt)</button>
+    <button id="btn-exportar-csv">Exportar Tarefas (csv)</button>
+    </div>
+    </main>
+    <scrip src="js/app.js"></scrip>"
+    </body>
+    </html>
 
-EXEMPLO:
-https://tasks.google.com/u/0/tasks/
